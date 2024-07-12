@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #01147C;
+}
+
+.main-color{
+    background-color: #01147C;
+}
+
+.bg-nav{
+    background-color: #01147C;
+}
+.logo-img{
+    height: 50px;
+}
+.nav-content{
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.user-nav{
+   
+}

@@ -1,0 +1,40 @@
+* {
+    background-color: #000520;
+}
+
+/* -------------- */
+.main-color {
+    background-color: #000520;
+}
+
+.nav-link:hover {
+    color: rgb(247, 241, 233);
+}
+
+.nav-link {
+    margin-right: 5px;
+}
+
+.nav-logo {
+    height: 50px;
+}
+.user-nav:hover{
+    color: rgb(228, 21, 21);
+}
+.nav-link-log{
+    width: 100px;
+    border: white;
+}
+
+/* ----------------- */
+@media only screen and (max-width: 995px) {
+    .nav_link_lg {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .nav_link_sm {
+        visibility: hidden;
+    }
+}
