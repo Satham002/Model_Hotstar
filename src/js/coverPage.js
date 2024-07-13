@@ -14,7 +14,7 @@ const createSlide = () => {
     let content = document.createElement('div');
     let h1 = document.createElement('h1');
     let p = document.createElement('p');
-    console.log(slide);
+    // console.log(slide);
 
     // attaching all element
     imgElement.appendChild(document.createTextNode(''));
@@ -49,5 +49,5 @@ for(let i = 0; i < 3; i++) {
 }
 
 setInterval(() => {
-    // createSlide();
+    createSlide();
 }, 3000);
